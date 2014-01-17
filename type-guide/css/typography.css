@@ -1,6 +1,8 @@
 /*
   Colour Palette
   - Plum: #701447 - rgb(112, 20, 71)
+  - Zinfandel: #D72A56 - rgb(215, 42, 86)
+  - Deep Red: #460011 - rgb(70, 0, 17)
 
  */
 
@@ -82,32 +84,32 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .brand-color {
-	color: red;
+	color: #701447;
 }
 
 ::selection {
-	background-color: orange;	
+	background-color: #D72A56;	
 	color: #fff;
 }
 
 a,
 a:link {
-	color: #0f0;
+	color: #460011;
 	text-decoration:none;
-	border-bottom: 0.1rem solid rgba(0,255,0,0.5);
+	border-bottom: 0.1rem solid rgba(70,0,17,0.5);
 	transition: all 200ms linear;
 }
 
 a:visited {
-	color: #696;
-	border-bottom-color: rgba(50,150,50,0.5);
+	color: #D72A56;
+	border-bottom-color: rgba(215,42,86,0.5);
 }
 	
 a:hover,
 a:focus,
 a:active {
-	color: fuchsia;
-	border-bottom-color: fuchsia;	
+	color: #D72A56;
+	border-bottom-color: rgba(215,42,86,0.5);	
 }
 
 ul {
@@ -120,8 +122,18 @@ ul li {
 
 ul li:before {
 	content: "·";	
-	color: #666;
+	color: #000;
 	position:absolute;
 	left: -.75em;
 }
 	
+table, td, th {
+border: 1px solid white;
+}
+
+th {
+font-family: 'Raleway', sans-serif;
+font-weight:600;
+color: #FFF;
+background-color: #D72A56;
+}
