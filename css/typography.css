@@ -3,13 +3,13 @@
   - Plum: #701447 - rgb(112, 20, 71)
   - Zinfandel: #D72A56 - rgb(215, 42, 86)
   - Deep Red: #460011 - rgb(70, 0, 17)
+  - White wine: #F5ECCE - rgb( 245, 236, 205)
 
  */
 
 
 html {
 	font: normal 100%/1.5 Georgia,serif; /* 16px/24px */
-	background-color:#FDF6DE;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -129,7 +129,7 @@ ul li:before {
 }
 	
 table, td, th {
-border: 4px solid #FDF6DE;
+border: 4px solid #FFF;
 }
 
 th {
@@ -137,3 +137,7 @@ font-family: 'Raleway', sans-serif;
 font-weight:600;
 color: #D72A56;
 }
+
+mark {
+	background-color: #F5ECCE; 
+} 
