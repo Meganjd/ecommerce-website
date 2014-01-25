@@ -1,3 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*
+  Colour Palette
+  - Plum: #701447 - rgb(112, 20, 71)
+  - Zinfandel: #D72A56 - rgb(215, 42, 86)
+  - Deep Red: #86003A - rgb(134, 0, 58)
+  - White wine: #F5ECCE - rgb( 245, 236, 205)
+
+ */
+
+.product {
+	padding: 1em;
+	border-radius: 6px;	
+}
+
