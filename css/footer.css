@@ -25,6 +25,35 @@
 	font-size: .75rem;
 }
 
-.social-media li {
-	dislpay:inline-block;
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display:inline-block;
+	float:right;
+	height: 20px;
+	width: 40px; /* divide by 2 to get border radius to create circle */
+	margin-right: 1rem;
+	text-align: center;
+	padding-top: 0.8125rem;
+	color: #FFF;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #D72A56;
+	-moz-box-shadow: inset 0px 0px 0px 40px #D72A56;
+	-ms-box-shadow: inset 0px 0px 0px 40px #D72A56;
+	-o-box-shadow: inset 0px 0px 0px 40px #D72A56;
+	box-shadow: inset 0px 0px 0px 40px #D72A56;
+}
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #D72A56;
+	-moz-box-shadow: inset 0px 0px 0px 3px #D72A56;
+	-ms-box-shadow: inset 0px 0px 0px 3px #D72A56;
+	-o-box-shadow: inset 0px 0px 0px 3px #D72A56;
+	box-shadow: inset 0px 0px 0px 3px #D72A56;
+	color: #FFF;
+}
+
+.social {
+	margin-left:.5rem;
 }
