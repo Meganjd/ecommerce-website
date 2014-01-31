@@ -36,7 +36,8 @@ img {
 	width: 64px;
 	position: absolute;
 	left: 2%;
-	top: 1rem; /* Positioning of a box in realtion to flow (top to bottom). 3 main types of positioning; relative (relative to it's own 0, will effect content around it), absoulte (independent of anything around it, still in the flow) and fixed (removed from flow, 0 is top left of browser). If there is no position everything is stacked on top of one another. */
+	top: 1rem;
+	
 	
 }
 
@@ -77,58 +78,5 @@ nav a:active {
 
 nav .selected {
 	background-color: #701447;
-}
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------Content */
-
-.wrapper {
-	/*background-color: #F5ECCE;*/
-	overflow: hidden;
-}
-
-.left {
-	width: 65.25%;
-	float: left;
-}
-
-.right {
-	width: 34.75%;
-	float: right;
-}
-
-article {
-	background-color: #FFF;
-	padding: 1.5rem 3%;
-}
-
-article h2 {
-	font-size: 1.5rem;
-	margin-bottom: 1.5rem; /* one baseline row */
-}
-
-article p {
-	margin-bottom: 1.5rem;
-}
-
-article p: last child {
-	margin-bottom: 0;
-}
-
-aside {
-	padding: 1.5rem 6%;
-}
-
-.box {
-	background-color: #FFF;
-	padding: 1.5rem 6%;
-	margin-bottom: 1.5rem;
-}
-
-.box h3 {
-	font-size: 1.25rem;	
-}
-
-.box p {
-	font-size: .75rem;
 }
 
