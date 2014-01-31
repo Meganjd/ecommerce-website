@@ -1,3 +1,149 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*
+  Colour Palette
+  - Plum: #701447 - rgb(112, 20, 71)
+  - Zinfandel: #D72A56 - rgb(215, 42, 86)
+  - Deep Red: #86003A - rgb(134, 0, 58)
+  - White wine: #F5ECCE - rgb( 245, 236, 205)
+
+ */
+
+html {}
+
+body {
+	background-image:url(../images/column.svg);
+	background-size:100%;
+	font-size:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.5rem;
+	/* makes content transparent- when done remove this line */
+}
+
+
+img {
+	width:100%;
+}
+
+.baseline {
+	background-image: url(../images/baseline.svg);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------Masthead */
+
+.masthead {
+	background-color: #666;
+	height: 9rem;
+}
+
+.logo {
+	width: 64px;
+	position: absolute;
+	left: 2%;
+	top: 1rem; /* Positioning of a box in realtion to flow (top to bottom). 3 main types of positioning; relative (relative to it's own 0, will effect content around it), absoulte (independent of anything around it, still in the flow) and fixed (removed from flow, 0 is top left of browser). If there is no position everything is stacked on top of one another. */
+	
+}
+
+nav ul { 
+	position: absolute;
+	width: 100%;
+	height: 3rem;
+	top: 6rem; /* 4 baseline rows from the top */
+	background-color: #888;
+	text-align: center;
+
+}
+
+nav li {
+	display: inline;
+	
+}
+
+nav a,  /* nav boxes are styled in "nav a" to make the box "hot" (entire regione is clickable); if styled in li, only word is clickable */
+nav a:link,
+nav a:visited {
+	display: inline-block;
+	height: 3rem;
+	margin: 0 2%;
+	padding: .8rem 3%;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	background-color: #666;
+}
+
+nav .selected {
+	background-color: #666;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------Content */
+
+.wrapper {
+	background-color: #CCC;
+	overflow: hidden;
+}
+
+.left {
+	width: 65.25%;
+	float: left;
+}
+
+.right {
+	width: 34.75%;
+	float: right;
+}
+
+article {
+	background-color: #FFF;
+	padding: 1.5rem 3%;
+}
+
+article h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem; /* one baseline row */
+}
+
+article p {
+	margin-bottom: 1.5rem;
+}
+
+article p: last child {
+	margin-bottom: 0;
+}
+
+aside {
+	padding: 1.5rem 6%;
+}
+
+.box {
+	background-color: #FFF;
+	padding: 1.5rem 6%;
+	margin-bottom: 1.5rem;
+}
+
+.box h3 {
+	font-size: 1.25rem;	
+}
+
+.box p {
+	font-size: .75rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------Bottom */
+
+.bottom {
+	height: 12rem;
+	background-color: #999;
+	padding: 1.5rem 2%;
+}
+
+.bottom p {
+	color: #FFF;
+	font-size: .75rem;
+}
