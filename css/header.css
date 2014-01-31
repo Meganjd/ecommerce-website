@@ -10,10 +10,8 @@
 
  */
 
-html {}
 
 body {
-	background-image:url(../images/column.svg);
 	background-size:100%;
 	font-size:100%;
 	line-height:1.5rem;
@@ -44,9 +42,8 @@ img {
 nav ul { 
 	position: absolute;
 	width: 100%;
-	height: 3rem;
-	top: 6rem; /* 4 baseline rows from the top */
-	background-color: #888;
+	top: 6rem; 
+	background-color:#D8C4A6;
 	text-align: center;
 
 }
@@ -62,12 +59,11 @@ nav a,
 nav a:link,
 nav a:visited {
 	display: inline-block;
-	height: 3rem;
 	margin: 0 2%;
 	padding: .8rem 3%;
 	text-transform: uppercase;
 	color: #FFF;
-	text-decoration: none;
+	text-decoration:none;
 }
 
 nav a:hover,
