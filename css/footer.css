@@ -11,12 +11,11 @@
 
  */
 
-
-
-
 .bottom {
-	height: 3rem;
-	background-color: #701447;	
+   bottom:0px;
+   position:absolute;
+   background:#701447;
+   width: 100%;
 }
 
 .bottom p {
@@ -32,10 +31,10 @@
 	display:inline-block;
 	float:right;
 	margin-right: 1rem;
-	margin-top: -3.5rem;
 	text-align: center;
 	padding-top: 0.8125rem;
 	color: #FFF;
+	text-decoration:none;
 }
 
 .social li a:hover,
