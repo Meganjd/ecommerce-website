@@ -119,10 +119,11 @@ ul {
 
 ul li {
         position:relative;
+		list-style-type:none;
 }
 
 ul li:before {
-        content: "·";        
+        content: none;        
         color: #86003A;
         position:absolute;
         left: -.75em;
