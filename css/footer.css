@@ -14,6 +14,7 @@
 .bottom {
    bottom:0px;
    position:absolute;
+   height: 100px;
    background:#701447;
    width: 100%;
 }
@@ -21,18 +22,16 @@
 .bottom p {
 	color: #FFF;
 	font-size: .75rem;
-	padding-top: 1rem;
+	padding-top: 3rem;
 	padding-left: 1rem;
 }
 
 .social li a,
 .social li a:link,
 .social li a:visited{
-	display:inline-block;
+	display:inline;
 	float:right;
-	margin-right: 1rem;
 	text-align: center;
-	padding-top: 0.8125rem;
 	color: #FFF;
 	text-decoration:none;
 }
@@ -44,7 +43,7 @@
 }
 
 .social {
-	margin-left:.5rem;
+	margin-top: -3rem;
 }
 .hide-text{
 	text-indent: 100%;

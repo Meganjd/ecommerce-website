@@ -97,7 +97,7 @@ a,
 a:link {
         color: #86003A;
         text-decoration:none;
-        border-bottom: 0.1rem solid rgba(70,0,17,0.5);
+        /*border-bottom: 0.1rem solid rgba(70,0,17,0.5);*/
         transition: all 200ms linear;
 }
 
