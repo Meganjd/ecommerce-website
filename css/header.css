@@ -38,9 +38,10 @@ body {
 nav ul { 
 	position: absolute;
 	width: 100%;
-	top: 6rem; 
+	top: 6.5rem; 
 	background-color:#D8C4A6;
 	text-align: center;
+	left:0;
 
 }
 
