@@ -13,7 +13,7 @@
 
 .bottom {
    bottom:0px;
-   position:absolute;
+   position:relative;
    height: 100px;
    background:#701447;
    width: 100%;
@@ -24,6 +24,7 @@
 	font-size: .75rem;
 	padding-top: 3rem;
 	padding-left: 1rem;
+	position:relative;
 }
 
 .social li a,
