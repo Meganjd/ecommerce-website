@@ -10,6 +10,9 @@
   - White wine: #F5ECCE - rgb( 245, 236, 205)
 
  */
+ html, body {
+	 width:100%;
+ }
 
 .bottom {
    bottom:0px;
@@ -27,15 +30,21 @@
 	position:relative;
 }
 
-/*.social li {
-	padding-top: 1rem;
-}*/
+.social {
+	padding: 0;
+	text-align:center;
+	padding-top: 1rem;	
+}
+
+.social li {
+	display:inline-block;
+	
+}
 
 .social li a,
 .social li a:link,
 .social li a:visited{
 	display:inline;
-	float:right;
 	text-align: center;
 	color: #FFF;
 	text-decoration:none;
@@ -53,4 +62,27 @@
 	white-space: nowrap;
 	overflow: hidden;
 	display: block;
+}
+
+.social .hide-text{
+	display: none;
+}
+
+
+@media only screen and (min-width: 30em) {
+	
+	.social {
+		text-align:right;
+	}
+	
+}
+
+@media only screen and (min-width: 50em) {
+	
+	.social li {
+		margin: 1rem 0;
+		
+	}
+	
+	
 }
