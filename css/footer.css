@@ -27,6 +27,10 @@
 	position:relative;
 }
 
+/*.social li {
+	padding-top: 1rem;
+}*/
+
 .social li a,
 .social li a:link,
 .social li a:visited{
@@ -35,6 +39,7 @@
 	text-align: center;
 	color: #FFF;
 	text-decoration:none;
+	padding-top: 2rem;
 }
 
 .social li a:hover,
@@ -43,9 +48,6 @@
 	color: #F5ECCE;
 }
 
-.social {
-	margin-top: -3rem;
-}
 .hide-text{
 	text-indent: 100%;
 	white-space: nowrap;
