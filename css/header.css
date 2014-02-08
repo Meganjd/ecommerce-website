@@ -56,52 +56,58 @@ nav li {
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
-	top: 6.5rem; 
-	background-color:#D8C4A6;
 	display: block;
-	height: 30px;
-	width: 30px;
-	position: absolute;	
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	/*top: 10px;*/	
+	float:right;
 	background: #fff url('../images/nav-icon.svg') no-repeat center center;
 }
 
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color: #701447;
+	background-color: #ccc;
 }
 
 .nav-btn[data-state="active"] {
-	background: #701447 url('../images/nav-close.svg') no-repeat center center;
+	background: #ccc url('../images/nav-close.svg') no-repeat center center;
+
 }
 
-.nav a,
+.nav a, 
 .nav a:link,
 .nav a:visited{
 	display: block;
 	padding: 1rem;
-	text-align: center;
-	background-color:#D5C4A4;
+	text-align:center;
 	color: #fff;
 	text-decoration: none;
-	border-top: 1px solid #fff;
+	background-color:#701447;
+	border-top: 2px solid #fff;
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active{
-	background-color:#701447;
+	background-color:#F5ECCE;
 }
 
+	/* Toggle Nav*/
 
-.nav-top{
-	display:none;
+	.nav-top{
+		max-height: 0;
+		-moz-transition: all 250ms linear;
+		-o-transition: all 250ms linear;
+		-webkit-transition: all 250ms linear;
+		transition: all 250ms linear;
+		overflow:hidden;
+	}
 
-}
-
-.nav-top[data-state="expanded"] {
-	display: block;	
-}
+	.nav-top[data-state="expanded"]{
+		max-height: 14rem;
+	}
 
 
 @media only screen and (min-width:36em){
