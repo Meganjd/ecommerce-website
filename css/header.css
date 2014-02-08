@@ -29,6 +29,7 @@ body {
 .logo {
 	width: 64px;
 	position: absolute;
+	display:inline-block;
 	left: 2%;
 	top: 1rem;
 	
