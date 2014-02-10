@@ -33,11 +33,13 @@
 .social {
 	padding: 0;
 	text-align:center;
-	padding-top: 1rem;	
+	padding-top: 1rem;
+	padding-right: 1rem;	
 }
 
 .social li {
 	display:inline-block;
+	padding-right: 1rem;
 	
 }
 
@@ -81,7 +83,7 @@
 	
 	.social li {
 		margin: 1rem 0;
-		
+		padding-right: 1rem;
 	}
 	
 	
