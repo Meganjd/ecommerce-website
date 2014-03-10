@@ -137,4 +137,9 @@ nav li {
 }
 
 
-	
+.banner {
+	background: #FFFFFF url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	padding: 5rem 1rem 1rem;
+}	
