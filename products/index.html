@@ -32,17 +32,3 @@ layout: default
 
 </ul>
 
-<h2>Rose Wines</h2>
-
-<ul>
-
-{% for products in site.pages %}
-	{% if products.type == 'rose' %}
-	<li>
-	{{products.title}}
-	</li>
-	{% endif %}
-{% endfor %}
-
-</ul>
-
