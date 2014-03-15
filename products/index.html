@@ -1,34 +1,25 @@
 ---
 layout: default
+title: Our Wines
 ---
 
-<h1>Products</h1>
-
-<h2>White Wines</h2>
-
-<ul>
-
-{% for products in site.pages %}
-	{% if products.type == 'white' %}
-	<li>
-	{{products.title}}
-	</li>
-	{% endif %}
-{% endfor %}
-
-</ul>
-
-<h2>Red Wines</h2>
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+		<h1>Our Wines</h1>
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+	</div>
+</div>
 
 <ul>
-
-{% for products in site.pages %}
-	{% if products.type == 'red' %}
-	<li>
-	{{products.title}}
-	</li>
-	{% endif %}
-{% endfor %}
-
+	{% for products in site.pages %}
+		{% if products.category == 'wine' %}
+			<li>
+			<a href="{{site.baseurl}}{{products.url}}">
+			<img src="{{site.baseurl}}/images/{{product.image}}" alt="">
+			{{products.type}} 
+			</a>
+			</li>
+		{% endif %}
+	{% endfor %}
 </ul>
-

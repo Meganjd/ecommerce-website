@@ -1,0 +1,9 @@
+<ul>
+	{% for products in site.pages %}
+		{% if products.type == 'red' %}
+		<li>
+			{{products.title}}
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>
