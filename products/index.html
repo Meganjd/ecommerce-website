@@ -8,10 +8,40 @@ layout: default
 
 <ul>
 
-{% for product in site.pages %}
+{% for products in site.pages %}
+	{% if products.type == 'white' %}
 	<li>
 	{{products.title}}
 	</li>
+	{% endif %}
+{% endfor %}
+
+</ul>
+
+<h2>Red Wines</h2>
+
+<ul>
+
+{% for products in site.pages %}
+	{% if products.type == 'red' %}
+	<li>
+	{{products.title}}
+	</li>
+	{% endif %}
+{% endfor %}
+
+</ul>
+
+<h2>Rose Wines</h2>
+
+<ul>
+
+{% for products in site.pages %}
+	{% if products.type == 'rose' %}
+	<li>
+	{{products.title}}
+	</li>
+	{% endif %}
 {% endfor %}
 
 </ul>
