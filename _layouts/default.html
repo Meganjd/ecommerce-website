@@ -42,7 +42,7 @@
 					<li><a class="{% if page.url == '/index.html' %}current{% endif %}" href="{{site.baseurl}}/index.html" >Home</a></li>
 					<li><a class="{% if page.url contains 'about' %}current{% endif %}" href="{{site.baseurl}}/about.html" >About</a></li>
 					<li><a class="{% if page.url == '/thank-you.html' %}current{% endif %}" href="{{site.baseurl}}/thank-you.html">Thank-You</a></li>
-					<li><a class="{% if page.url == '#' %}current{% endif %}" href="{{site.baseurl}}#">Products</a></li>
+					<li><a class="{% if page.url contains 'products' %}current{% endif %}" href="{{site.baseurl}}/products/index.html">Products</a></li>
 				</ul>
 			</nav>
 	
