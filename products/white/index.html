@@ -1,0 +1,42 @@
+---
+layout: default
+category: Wine
+type: White
+---
+
+<p>All types of white wine are made by growing and processing white grapes.
+The wine that is the end result will vary greatly depending upon the type of grape grown and several other variables</p>
+
+<h1> Types of White </h1>
+
+<ul>
+	<li> Chardonnay </li>
+	<li> Pinot Grigio </li>
+	<li> Riesling </li>
+	<li> Sauvignon Blanc </li>
+	<li> Semillon </li>
+</ul>
+
+<img src="http://everythingfondue.files.wordpress.com/2010/03/white-wine-with-grapes.jpg" alt="Glasses of White wine"/> 
+
+
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+		<h1>Our Wines</h1>
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+	</div>
+</div>
+
+<ul>
+	{% for products in site.pages %}
+		{% if products.type == 'white' %}
+			<li>
+			<a href="{{site.baseurl}}{{products.url}}">
+			<img src="{{site.baseurl}}/images/{{product.image}}" alt="">
+			{{products.title}} 
+			</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
