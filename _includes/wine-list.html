@@ -2,6 +2,7 @@
 	{% for products in site.pages %}
 		{% if products.type == 'include.type' %}
 		<li>
+			<a href="{{site.baseurl}}" </a>
 			{{products.title}}
 		</li>
 		{% endif %}
