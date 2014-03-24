@@ -47,9 +47,9 @@ nav ul {
 	position: absolute;
 	width: 100%;
 	top: 6.5rem; 
-	background-color:#D8C4A6;
 	text-align: center;
-	left:0;
+	left: 0;
+	right: 0;
 	padding: 0;
 }
 
@@ -63,7 +63,7 @@ nav li {
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
-	display: block;
+	display: inline;
 	height: 40px;
 	width: 40px;
 	position: absolute;
@@ -92,7 +92,6 @@ nav li {
 	color: #fff;
 	text-decoration: none;
 	background-color:#701447;
-	border-top: 2px solid #fff;
 }
 
 .nav a:hover,

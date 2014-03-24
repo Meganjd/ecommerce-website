@@ -26,7 +26,7 @@
 
 <header class="masthead">
 	
-<div class="search-bar unit-l-1 unit-m-1 unit-s-1-3">
+<div class="search-bar unit unit-l-1 unit-m-1 unit-s-1-3">
 <form method="get" action="{{site.baseurl}}/search/" class="btn"id="cse-search-box" >
   <input type="hidden" name="cx" value="YOUR SEARCH ENGINE ID goes here" />
   <input type="hidden" name="ie" value="UTF-8" />
@@ -41,8 +41,8 @@
 				<ul>
 					<li><a class="{% if page.url == '/index.html' %}current{% endif %}" href="{{site.baseurl}}/index.html" >Home</a></li>
 					<li><a class="{% if page.url contains 'about' %}current{% endif %}" href="{{site.baseurl}}/about.html" >About</a></li>
-					<li><a class="{% if page.url == '/thank-you.html' %}current{% endif %}" href="{{site.baseurl}}/thank-you.html">Thank-You</a></li>
 					<li><a class="{% if page.url contains 'products' %}current{% endif %}" href="{{site.baseurl}}/products/index.html">Products</a></li>
+					<li><a class="{% if page.url contains 'FAQ' %}current{% endif %}" href="{{site.baseurl}}/FAQ.html">FAQ</a></li>
 				</ul>
 			</nav>
 	
