@@ -5,12 +5,27 @@ showbanner: yes
 bannertext: Our Wine List
 ---
 
+<h1><a href="{{site.baseurl}}/products/red/">Red Wines</a></h1>
+
 <ul>
 	{% for products in site.pages %}
-		{% if products.category == 'wine' %}
+		{% if products.type == 'red' %}
 			<li>
 			<a href="{{site.baseurl}}{{products.url}}">
-			<img src="{{site.baseurl}}/images/{{product.image}}" alt="">
+			{{products.title}} 
+			</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
+<h1>White Wines</h1>
+
+<ul>
+	{% for products in site.pages %}
+		{% if products.type == 'white' %}
+			<li>
+			<a href="{{site.baseurl}}{{products.url}}">
 			{{products.title}} 
 			</a>
 			</li>
