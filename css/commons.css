@@ -34,10 +34,6 @@ html {
   text-size-adjust: 100%;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
 
 .ir {
   overflow: hidden;
@@ -49,3 +45,4 @@ body {
   display: block;
   width: 100%;
 }
+
