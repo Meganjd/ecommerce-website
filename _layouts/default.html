@@ -24,10 +24,10 @@
 </head>
 <body>
 
-<header class="masthead">
+<header class="masthead" role="banner">
 	
 <div class="search-bar unit unit-l-1 unit-m-1 unit-s-1-3">
-<form method="get" action="{{site.baseurl}}/search/" class="btn"id="cse-search-box" >
+<form method="get" action="{{site.baseurl}}/search/" class="btn"id="cse-search-box" role="search">
   <input type="hidden" name="cx" value="YOUR SEARCH ENGINE ID goes here" />
   <input type="hidden" name="ie" value="UTF-8" />
   <input type="text" name="q" size="30" />
@@ -37,7 +37,7 @@
 		
 		<a href="{{site.baseurl/index.html/}}"><img src="../images/logo.svg" alt="Company Name" class="logo"></a>
 		
-			<nav class="brand nav nav-top unit-s-1" data-state="collapsed"> 
+			<nav class="brand nav nav-top unit-s-1" data-state="collapsed" role="navigation"> 
 				<ul>
 					<li><a class="{% if page.url == '/index.html' %}current{% endif %}" href="{{site.baseurl}}/index.html" >Home</a></li>
 					<li><a class="{% if page.url contains 'about' %}current{% endif %}" href="{{site.baseurl}}/about.html" >About</a></li>
@@ -56,7 +56,7 @@
 
 {{content}}
 
-<div class="bottom">
+<div class="bottom" role="content info">
 		<ul class="social">
 		
 			<li>

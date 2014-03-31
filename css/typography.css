@@ -114,6 +114,17 @@ a:active {
         border-bottom-color: rgba(215,42,86,0.5);        
 }
 
+a:hover,
+a:active {
+  /*It's okay to remove the focus rectangle from mouse-based actions*/
+  outline: none;
+}
+
+a:focus {
+  /* focus MUST always have a focus rectangle */
+  outline: 3px solid #000;
+}
+
 ul {
         list-style-type: none;
 }

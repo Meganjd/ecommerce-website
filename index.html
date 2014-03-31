@@ -5,26 +5,28 @@ showbanner: yes
 bannertext: Hello.
 ---
 
-<h1>Wines of the World</h1>
-<p>Find and buy your favourite international wines!</p>
+<main role="main">
+	<h1>Wines of the World</h1>
+	<p>Find and buy your favourite international wines!</p>
 
-<div class="grid promo-group grid-bottom">
+	<div class="grid promo-group grid-bottom">
 
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-2-5">
-		{% include promo-large.html title="Promo 1" desc="!~*!~**!~*!*~The best sale evar!~*!~*!~*!*~*!~*!" image="2-bottles.JPG" %}
+		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-2-5">
+			{% include promo-large.html title="Promo 1" desc="!~*!~**!~*!*~The best sale evar!~*!~*!~*!*~*!~*!" image="2-bottles.JPG" %}
+		</div>
+
+		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-5">
+			{% include promo-small.html title="Promo 2" desc="!~*!~**!~*!*~The best sale evar!~*!~*!~*!*~*!~*!" image="2-dragonfly-bottles.jpg" %}
+		</div>
+
+		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-5">
+			{% include promo-small.html title="Promo 3" desc="!~*!~**!~*!*~The best sale evar!~*!~*!~*!*~*!~*!" image="3-bottles.jpg" %}
+		</div>
+		
+		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-5">
+			{% include promo-small.html title="Promo 3" desc="!~*!~**!~*!*~The best sale evar!~*!~*!~*!*~*!~*!" image="3-bottles.jpg" %}
+		</div>
+
 	</div>
-
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-5">
-		{% include promo-small.html title="Promo 2" desc="!~*!~**!~*!*~The best sale evar!~*!~*!~*!*~*!~*!" image="2-dragonfly-bottles.jpg" %}
-	</div>
-
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-5">
-		{% include promo-small.html title="Promo 3" desc="!~*!~**!~*!*~The best sale evar!~*!~*!~*!*~*!~*!" image="3-bottles.jpg" %}
-	</div>
-	
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-5">
-		{% include promo-small.html title="Promo 3" desc="!~*!~**!~*!*~The best sale evar!~*!~*!~*!*~*!~*!" image="3-bottles.jpg" %}
-	</div>
-
-</div>
+</main>
 
