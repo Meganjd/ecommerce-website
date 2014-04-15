@@ -13,6 +13,9 @@
 
 .small-bucket {
 	margin: 0px 10px 40px 10px;
+	-moz-box-shadow: 2px 2px 1px 1px #ccc;
+  	-webkit-box-shadow: 2px 2px 1px 1px #ccc;
+  	box-shadow: 2px 2px 1px 1px #ccc;
 }
 
 .small-bucket-header{
@@ -33,6 +36,9 @@
 
 .large-bucket {
 	margin: 3px 3px 10px 3px;
+	-moz-box-shadow: 2px 2px 1px 1px #ccc;
+  	-webkit-box-shadow: 2px 2px 1px 1px #ccc;
+  	box-shadow: 2px 2px 1px 1px #ccc;
 }
 
 .large-bucket-header{

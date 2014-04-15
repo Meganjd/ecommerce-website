@@ -3,7 +3,7 @@ layout: wine
 title: Riesling
 type: white
 category: wine
-image: https://www.debortoli.com.au/uploads/tx_dbwawardsdata/YVEG_Off_Dry_Riesling_NV_web.jpg
+price: $11.99
 ---
 
 *Riesling* has medium to high acidity and light to medium body with a distinct flowery, fruity aroma.
