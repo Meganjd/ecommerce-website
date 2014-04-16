@@ -15,3 +15,11 @@
 	margin-bottom: 5rem;	
 }
 
+.wine-img {
+	max-height: 500px;
+	max-width: 100%;
+}
+
+.wine-centered-img {
+	text-align: center;
+}

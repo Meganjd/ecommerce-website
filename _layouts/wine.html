@@ -2,12 +2,21 @@
 layout: default
 ---
 
-<h1>{{page.title}}</h1>
 
-<img class="img-flex unit unit-l-1-5 unit-m-1-2 unit-s-1" src="{{page.image}}" alt="bottle of wine">
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 wine-centered-img">
+		<img class="wine-img" src="{{site.baseurl}}/images/{{page.image}}" alt="bottle of wine">
+	</div>
 
-{{content}}
 
-<h3>{{page.price}}</h3>
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+		<h1>{{page.title}}</h1>
 
-<a class="btn" href="{{site.baseurl}}/cart.html"> Add to cart </a>
+
+		{{content}}
+
+		<h3>{{page.price}}</h3>
+
+		<a class="btn" href="{{site.baseurl}}/cart.html"> Add to cart </a>
+	</div>
+</div>
