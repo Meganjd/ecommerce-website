@@ -60,7 +60,6 @@ nav li {
 }
 
 
-
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
@@ -68,7 +67,7 @@ nav li {
 	height: 40px;
 	width: 40px;
 	position: absolute;
-	/*top: 10px;*/	
+	top: 10px;	
 	float:right;
 	background: #fff url('../images/nav-icon.svg') no-repeat center center;
 }
@@ -79,10 +78,6 @@ nav li {
 	background-color: #ccc;
 }
 
-.nav-btn[data-state="active"] {
-	background: #ccc url('../images/nav-close.svg') no-repeat center center;
-
-}
 
 .nav a, 
 .nav a:link,
@@ -93,6 +88,7 @@ nav li {
 	color: #fff;
 	text-decoration: none;
 	background-color:#701447;
+	border-top: 1px solid #fff;
 }
 
 .nav a:hover,
