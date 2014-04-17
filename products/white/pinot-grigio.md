@@ -9,5 +9,3 @@ image: white-pinot-grigio.jpg
 
 *Pinot Grigio* European Pinot Grigio tends to be more acidic with less body than its American counterpart. All Pinot Grigio/Gris possess a citrus aroma.
 
-(images/white-pinot-grigio.jpg)
-
