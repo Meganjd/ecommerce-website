@@ -154,3 +154,9 @@ th {
 mark {
         background-color: #F5ECCE; 
 } 
+
+.banner-txt {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   color: #F5ECCE;
+}
