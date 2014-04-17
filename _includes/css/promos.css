@@ -15,7 +15,10 @@
 	margin: 0px 10px 40px 10px;
 	-moz-box-shadow: 2px 2px 1px 1px #ccc;
   	-webkit-box-shadow: 2px 2px 1px 1px #ccc;
-  	box-shadow: 2px 2px 1px 1px #ccc;
+  	/*box-shadow: 2px 2px 1px 1px #ccc;*/
+  	border: 5px solid #F5ECCE;
+  	border-radius: 4px;
+
 }
 
 .small-bucket-header{
@@ -38,7 +41,9 @@
 	margin: 3px 3px 10px 3px;
 	-moz-box-shadow: 2px 2px 1px 1px #ccc;
   	-webkit-box-shadow: 2px 2px 1px 1px #ccc;
-  	box-shadow: 2px 2px 1px 1px #ccc;
+  	/*box-shadow: 2px 2px 1px 1px #ccc;*/
+  	border: 5px solid #F5ECCE;
+  	border-radius: 4px;
 }
 
 .large-bucket-header{
